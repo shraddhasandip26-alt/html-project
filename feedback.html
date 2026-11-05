@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Feedback Form</h1>
+        <p>We value your feedback!</p>
+    </header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Courses.html">Courses</a></li>
+        <li><a href="Academicgrades.html">Academic Grades</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+
+        <section>
+            <h2>Share Your Feedback</h2>
+
+            <p>
+                Please fill in the form below to share your
+                thoughts about our Student Profile & Course Portal.
+            </p>
+        </section>
+
+        <section>
+                <label for="name">Name</label><br>
+                <input type="text" id="name">
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email">
+                <br><br>
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone">
+                <br><br>
+
+                <fieldset>
+                    <legend>Gender</legend>
+                
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+                </fieldset>
+
+                <br>
+
+                <label for="rating">How would you rate our portal?</label><br>
+                <select id="rating" name="rating">
+                    <option value="">Select your rating</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Your Feedback</label><br>
+                <textarea id="message" name="message"
+                    rows="5" cols="35"
+                    placeholder="Write your feedback here..."></textarea>
+
+                <br><br>
+
+                <input type="checkbox"  value="yes">
+                <label for="confirmation">
+                    I confirm that the information provided is correct.
+                </label>
+
+                <br><br>
+
+                <button type="submit">Submit Feedback</button>
+                <button type="reset">Reset Form</button>
+        </section>
+
+    <footer>
+        <p>2026 Student Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
